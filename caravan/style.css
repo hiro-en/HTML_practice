@@ -8,6 +8,9 @@ a{
   text-decoration: none;
 }
 
+header, nav, h2, main-vis, footer{
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
 header{
   width:90%;
   padding: 15px 0;
@@ -37,17 +40,16 @@ heading{
   background-image: url(img/mv.jpg);
   background-size: cover;
   background-position: center ;
-  
-  
+
+
 }
 .vis_contents{
   width:40%;
   height:300px;
   background-color: rgba(0, 0, 0, 0.5);
-  margin:0 auto;
   text-align: center;
   padding-top: 106px
-  
+
 }
 .main_vis_text{
   color:white;
@@ -55,7 +57,7 @@ heading{
 .main_vis_name{
   color: white;
   margin-top: 30px;
-  
+
 }
 
 main{
@@ -70,7 +72,7 @@ main{
 .blog{
   width: 540px;
   margin-right: 30px;
-  
+
 
 }
 .blog-heading{
@@ -86,15 +88,15 @@ main{
   display:flex;
   justify-content:flex-start;
   padding-top: 50px
-  
-  
+
+
 }
 
 .blog-text{
   padding-left: 25px;
-  padding-top:30px; 
+  padding-top:30px;
 
-  
+
 }
 .blog-img{
   height:180px;
@@ -104,7 +106,7 @@ main{
 }
 .blog-date{
   font-size:12px;
-  
+
 }
 .category{
   display: inline-block;
@@ -115,10 +117,64 @@ main{
   font-size:11px;
 }
 
+.common-heading{
+  border-bottom:8px solid #f7f7f7;
+  text-align: center;
+  line-height:0.6;
+}
+
+.sidebar-contents{
+  padding: 50px 0;
+}
+.sidebar-text,
+.category-text{
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom:5px;
+
+}
+.sidebar-text:last-child,
+.category-text:last-child{
+  margin:0;
+  padding:0;
+  border:none;
+}
+.instgram .sidebar-contents{
+  display: flex;
+  flex-wrap: wrap;
+}
+.instgram-box{
+  width:110px;
+  padding-top: 110px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.instgram-box:nth-child(odd){
+  margin:0 10px 10px 0;
+}
+.instgram-box:nth-child(1){
+  background-image: url(img/italy.jpg);
+}
+.instgram-box:nth-child(2){
+  background-image: url(img/japan.jpg);
+}
+.instgram-box:nth-child(3){
+  background-image: url(img/japan2.jpg);
+}
+.instgram-box:nth-child(4){
+  background-image: url(img/lake.jpg);
+}
+.instgram-box:nth-child(5){
+  background-image: url(img/airport.jpg);
+}
+.instgram-box:nth-child(6){
+  background-image: url(img/person.jpg);
+}
 .pagination{
   text-align: center;
   padding-top: 50px;
-  
+
 }
 
 .pagination p{
@@ -130,7 +186,7 @@ main{
   margin:0.5px;
   color:#fff;
   line-height:30px;
- 
+
 }
 
 .sidebar{
@@ -143,7 +199,7 @@ footer{
   text-align: center;
   line-height: 120px;
   background-color: #848282;
-  
+
 }
 
 .footer-text{
@@ -151,3 +207,14 @@ footer{
 }
 
 
+.social{
+  display:inline-block;
+  margin-left:20px;
+  position:absolute;
+  top:22px;
+  right:22px;
+  font-size: 32px;
+}
+.fa-brands fa-facebook{
+  
+}

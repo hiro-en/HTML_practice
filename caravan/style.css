@@ -16,6 +16,7 @@ header{
   padding: 15px 0;
   margin:0 auto;
   text-align: center;
+  position: relative;
 
 }
 
@@ -213,8 +214,58 @@ footer{
   position:absolute;
   top:22px;
   right:22px;
-  font-size: 32px;
 }
-.fa-brands fa-facebook{
+
+@media screen and (max-width: 425px){
+  header{
+    width:100%;
+  }
+  .nav-list{
+    width:100%;
+  }
+  .nav-list-item{
+    display:block;
+    margin:20px 0;
+  }
+  .vis_contents{
+    width:100%;
+  }
+  main{
+    display: block;
+    width:100%;
+  }
+  .blog{
+    width:100%;
+    margin: 0;
+  }
+  .blog-items{
+    margin:0;
+  }
+  .blog-img{
+    width:48%;
+  }
   
+  .blog-text{
+    padding-top: 0;
+    width:49%;
+  }
+  .category{
+    display: none;
+  }
+  .sidebar{
+    width:100%;
+  }
+  .sidebar-heading{
+    margin-top: 30px;
+  }
+  .sidebar-contents{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .instgram-box{
+    width:48%;
+    padding-top: 48%;
+  }
 }
+
+

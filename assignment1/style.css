@@ -27,7 +27,26 @@ main{
   margin:0;
 }
 
-.intro-img{
+.intro-img1{
+  background-image:url("img/flow01.png");
+  background-size:280px 150px;
+  height:150px;
+  width:280px;
+  margin:10px 10px 15px 10px;
+  vertical-align: bottom;
+}
+
+.intro-img2{
+  background-image:url("img/flow02.png");
+  background-size:280px 150px;
+  height:150px;
+  width:280px;
+  margin:10px 10px 15px 10px;
+  vertical-align: bottom;
+}
+.intro-img3{
+  background-image:url("img/flow03.png");
+  background-size:280px 150px;
   height:150px;
   width:280px;
   margin:10px 10px 15px 10px;
@@ -87,14 +106,32 @@ footer{
   .intro-box:nth-child(3){
     margin:0 auto;
   }
-  .intro-img{
+  .intro-img1{
       width:96%;
-      height:40%;
+      height:150px;
+      background-size:cover;
+      background-position:center;
       margin:10px 2% 10px 2%;
       display: inline-block;
       text-align: center
-    
-    
+  }
+  .intro-img2{
+      width:96%;
+      height:150px;
+      background-size:cover;
+      background-position:center;
+      margin:10px 2% 10px 2%;
+      display: inline-block;
+      text-align: center
+  }
+  .intro-img3{
+      width:96%;
+      height:150px;
+      background-size:cover;
+      background-position:center;
+      margin:10px 2% 10px 2%;
+      display: inline-block;
+      text-align: center
   }
   
 }
